@@ -2,6 +2,7 @@ package com.kickstartlab.android.klikSpace.events;
 
 
 import com.kickstartlab.android.klikSpace.rest.models.Asset;
+import com.kickstartlab.android.klikSpace.rest.models.Venue;
 
 /**
  * Created by awidarto on 12/3/14.
@@ -9,27 +10,28 @@ import com.kickstartlab.android.klikSpace.rest.models.Asset;
 public class VenueEvent {
 
     private String action = "refresh";
-    private String rackId = "";
-    private Asset asset;
+    private String locationId = "";
+    private Venue venue;
+//    private Asset asset;
 
     public VenueEvent(String action){
         this.action = action;
     }
 
-    public VenueEvent(String action, Asset asset){
+    public VenueEvent(String action, Venue venue){
         this.action = action;
-        this.asset = asset;
+        this.venue = venue;
     }
 
-    public VenueEvent(String action, String rackId){
+    public VenueEvent(String action, String locationId){
         this.action = action;
-        this.rackId = rackId;
+        this.locationId = locationId;
     }
 
-    public VenueEvent(String action, Asset asset, String rackId){
+    public VenueEvent(String action, Venue venue, String locationId){
         this.action = action;
-        this.asset = asset;
-        this.rackId = rackId;
+        this.venue = venue;
+        this.locationId = locationId;
     }
 
     public String getAction() {
@@ -40,19 +42,19 @@ public class VenueEvent {
         this.action = action;
     }
 
-    public Asset getAsset() {
-        return asset;
+    public Venue getVenue() {
+        return venue;
     }
 
-    public void setAsset(Asset asset) {
-        this.asset = asset;
+    public void setVenue(Venue venue) {
+        this.venue = venue;
     }
 
-    public String getRackId() {
-        return rackId;
+    public String getLocationId() {
+        return locationId;
     }
 
-    public void setRackId(String rackId) {
-        this.rackId = rackId;
+    public void setLocationId(String locationId) {
+        this.locationId = locationId;
     }
 }

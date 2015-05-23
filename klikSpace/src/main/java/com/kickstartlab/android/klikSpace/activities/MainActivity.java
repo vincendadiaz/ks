@@ -47,6 +47,7 @@ import com.kickstartlab.android.klikSpace.rest.interfaces.AmApiInterface;
 import com.kickstartlab.android.klikSpace.rest.models.Asset;
 import com.kickstartlab.android.klikSpace.rest.models.ResultObject;
 import com.kickstartlab.android.klikSpace.rest.models.ScanLog;
+import com.kickstartlab.android.klikSpace.rest.models.Venue;
 import com.orm.query.Condition;
 import com.orm.query.Select;
 
@@ -75,8 +76,10 @@ public class MainActivity extends ActionBarActivity implements
 
     private String current_mode;
     private String current_location;
+    private String current_city;
     private String current_rack;
     private String current_asset;
+    private String current_venue;
 
     Toolbar mToolbar;
 
@@ -137,7 +140,7 @@ public class MainActivity extends ActionBarActivity implements
         String title;
         FragmentManager fm = getSupportFragmentManager();
         int bc = fm.getBackStackEntryCount();
-        Log.i("BC",String.valueOf(bc));
+        Log.i("BC", String.valueOf(bc));
         if(bc > 0){
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             title = fm.getBackStackEntryAt(bc - 1).getBreadCrumbTitle().toString();
@@ -359,40 +362,46 @@ public class MainActivity extends ActionBarActivity implements
     public void onEvent(VenueEvent ae){
         if(ae.getAction() == "select"){
             FragmentManager fm = getSupportFragmentManager();
-            current_asset = ae.getAsset().getExtId();
+            current_asset = ae.getVenue().getExtId();
             fm.beginTransaction()
-                    .replace(R.id.container, VenueDetailFragment.newInstance(ae.getAsset().getExtId(), ae.getAsset().getSKU()), "asset_detail_fragment")
-                    .setBreadCrumbTitle(ae.getAsset().getSKU())
+                    .replace(R.id.container, VenueDetailFragment.newInstance(ae.getVenue().getExtId(), ae.getVenue().getName()), "asset_detail_fragment")
+                    .setBreadCrumbTitle(ae.getVenue().getName())
                     .addToBackStack("asset_detail_fragment")
                     .commit();
-            getSupportActionBar().setTitle(ae.getAsset().getSKU());
-            Toast.makeText(this, ae.getAsset().getSKU(), Toast.LENGTH_SHORT).show();
+            getSupportActionBar().setTitle(ae.getVenue().getName());
+            Toast.makeText(this, ae.getVenue().getName(), Toast.LENGTH_SHORT).show();
 
-            current_rack = ae.getAsset().getRackId();
+            current_rack = ae.getVenue().getLocationID();
         }else if(ae.getAction() == "refreshById"){
-            refreshAsset(ae.getRackId());
+            refreshAsset(ae.getLocationId());
         }else if(ae.getAction() == "syncAsset"){
-            Asset asset = ae.getAsset();
-            syncAsset( asset );
+            Venue venue = ae.getVenue();
+            syncAsset(venue);
         }else if(ae.getAction() == "upsyncBatch"){
             upsyncBatchAsset();
         }else if(ae.getAction() == "upsyncAsset"){
-            Asset asset = ae.getAsset();
-            upsyncAsset(asset);
+            Venue venue = ae.getVenue();
+            upsyncAsset(venue);
         }else if(ae.getAction() == "refreshImage"){
-            downsyncImages(ae.getAsset().getExtId(), "asset");
+            downsyncImages(ae.getVenue().getExtId(), "asset");
         }else if(ae.getAction() == "moveRack"){
-            Asset asset = ae.getAsset();
-            String rackId = ae.getRackId();
-            asset.setRackId(rackId);
-            asset.setLocalEdit(1);
-            asset.save();
+            Venue venue = ae.getVenue();
+            String locationId = ae.getLocationId();
+            venue.setLocationID(locationId);
+//            venue.setLocalEdit(1);
+            venue.save();
         }else if(ae.getAction() == "createAsset"){
             Location r = Select.from(Location.class).where( Condition.prop("ext_id").eq(current_rack) ).first();
             Intent i = new Intent(this, AddVenueActivity.class);
-            i.putExtra("rackId",current_rack);
-            i.putExtra("rackName",r.getSKU());
+            i.putExtra("locationId",current_rack);
+            i.putExtra("locationName",r.getName());
             startActivity(i);
+        }
+
+        else if (ae.getAction() == "syncVenue"){
+            Venue venue = ae.getVenue();
+            syncAsset(venue);
+
         }
 
     }
@@ -742,15 +751,15 @@ public class MainActivity extends ActionBarActivity implements
             @Override
             public void success(List<City> cities, Response response) {
                 Log.i("REFRESH LOCATION", "GET LOCATION SUCCESS");
+                Log.i("jumlah Kota,", "" + cities.size());
+                Toast.makeText(MainActivity.this, ""+cities.size(), Toast.LENGTH_SHORT).show();
                 for (int i = 0; i < cities.size(); i++) {
-                    Log.i("jumlah Kota,", "" + cities.size());
-                    Toast.makeText(MainActivity.this, ""+cities.size(), Toast.LENGTH_SHORT).show();
                     Select select = Select.from(City.class);
 
                     if (select.count() > 0) {
                         City loc = (City) select.first();
                         City lin = cities.get(i);
-
+                        Log.e("namaKota", ""+lin.getName());
                         loc.setName(lin.getName());
                         loc.setSlug(lin.getSlug());
                         loc.setAddress(lin.getAddress());

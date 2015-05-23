@@ -54,7 +54,7 @@ public interface AmApiInterface {
     public void updateVenue(@Query("key") String key,  @Path("id") String id ,@Body Venue venue, Callback<ResultObject> result );
 
 
-    @POST("/")
+    @GET("/")
     public void getCity(@Query("key") String key ,Callback<List<City>> response);
 
     @POST("/city")

@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.InputType;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -24,6 +25,7 @@ import com.kickstartlab.android.klikSpace.events.ImageEvent;
 import com.kickstartlab.android.klikSpace.rest.models.Asset;
 import com.kickstartlab.android.klikSpace.rest.models.AssetImages;
 import com.kickstartlab.android.klikSpace.rest.models.DeviceType;
+import com.kickstartlab.android.klikSpace.rest.models.Venue;
 import com.kickstartlab.android.klikSpace.ui.LabeledSwitchView;
 import com.kickstartlab.android.klikSpace.ui.SquareImageView;
 import com.kickstartlab.android.klikSpace.utils.DbDateUtil;
@@ -48,15 +50,19 @@ public class AddVenueActivity extends ActionBarActivity {
     SmoothProgressBar mProgressBar;
     TextView mProgressIndicator;
 
-    MaterialEditText sku,desc,ip,host,os,pic,pic_email,pic_phone,contract,owner;
+//    MaterialEditText sku,desc,ip,host,os,pic,pic_email,pic_phone,contract,owner;
+    MaterialEditText name, inDoor, outDoor, capacity, squareMeter, rentalRate, rentalCurrency, rentalUnit, pic, picPhone, picEmail, opHoursFrom, opHoursTo;
 
     LabeledSwitchView powerStatus, virtualStatus, labelStatus;
 
     Spinner asset_type;
+    Spinner venue_type;
 
     Asset asset;
+    Venue venue;
 
-    String rackId, rackName , extId;
+//    String rackId, rackName , extId;
+    String locationId, locationName, extId;
 
     LinearLayout image_container;
 
@@ -84,32 +90,49 @@ public class AddVenueActivity extends ActionBarActivity {
 
         Bundle extra = getIntent().getExtras();
 
-        rackId = extra.getString("rackId");
-        rackName = extra.getString("rackName");
+        locationId = extra.getString("locationId");
+        locationName = extra.getString("locationName");
 
         //create local extId
-        extId = RandomStringGenerator.generateRandomString(24, RandomStringGenerator.Mode.HEX);
+//        extId = RandomStringGenerator.generateRandomString(24, RandomStringGenerator.Mode.HEX);
 
-        extId = extId.toLowerCase();
+//        extId = extId.toLowerCase();
 
-        this.getSupportActionBar().setTitle("Add Asset");
-
+        this.getSupportActionBar().setTitle("Add Venue");
         this.getSupportActionBar().setHomeButtonEnabled(true);
 
         LinearLayout detail_container = (LinearLayout) findViewById(R.id.detail_container);
         image_container = (LinearLayout) findViewById(R.id.image_container);
 
-        sku = makeEditText(this,"Serial Number / Asset Code");
-        desc = makeEditText(this,"Description");
-        ip = makeEditText(this, "IP Address");
-        host = makeEditText(this, "Host");
-        os = makeEditText(this, "OS");
+
+//        sku = makeEditText(this,"Serial Number / Asset Code");
+        name = makeEditText(this, "Location Name");
+        inDoor = makeEditText (this, "Indoor");
+        outDoor = makeEditText(this, "Outdoor");
+        capacity = makeEditText(this, "Capacity");
+        capacity.setInputType(InputType.TYPE_CLASS_NUMBER);
+        squareMeter = makeEditText(this, "Square Meter");
+        squareMeter.setInputType(InputType.TYPE_CLASS_NUMBER);
+        rentalRate = makeEditText(this, "Rental Rate");
+        rentalRate.setInputType(InputType.TYPE_CLASS_NUMBER);
+        rentalCurrency = makeEditText(this, "Rental Currency");
+        rentalUnit = makeEditText(this, "Rental Unit");
         pic = makeEditText(this, "PIC");
-        pic_email = makeEditText(this, "PIC Email");
-        pic_phone = makeEditText(this, "PIC Phone");
-        contract = makeEditText(this, "Contract Number");
-        //asset_type = makeEditText(this,"Asset Type");
-        owner = makeEditText(this,"Owner");
+        picPhone = makeEditText(this, "PIC Phone");
+        picEmail = makeEditText(this, "PIC Email");
+        opHoursFrom = makeEditText(this, "Open From");
+        opHoursTo = makeEditText(this, "Open To");
+//
+//        desc = makeEditText(this,"Description");
+//        ip = makeEditText(this, "IP Address");
+//        host = makeEditText(this, "Host");
+//        os = makeEditText(this, "OS");
+//        pic = makeEditText(this, "PIC");
+//        pic_email = makeEditText(this, "PIC Email");
+//        pic_phone = makeEditText(this, "PIC Phone");
+//        contract = makeEditText(this, "Contract Number");
+//        //asset_type = makeEditText(this,"Asset Type");
+//        owner = makeEditText(this,"Owner");
 
         asset_type = new Spinner(this);
 
@@ -133,25 +156,41 @@ public class AddVenueActivity extends ActionBarActivity {
         labelStatus = makeSwitch(this, getResources().getString(R.string.label_status), 0, yes, no);
         virtualStatus = makeSwitch(this, getResources().getString(R.string.virtual_status), 0, yes, no);
 
-        detail_container.addView(sku);
-        detail_container.addView(ip);
-        detail_container.addView(host);
-        detail_container.addView(os);
-        detail_container.addView(contract);
-        detail_container.addView(owner);
+        detail_container.addView(name);
+        detail_container.addView(inDoor);
+        detail_container.addView(outDoor);
+        detail_container.addView(capacity);
+        detail_container.addView(squareMeter);
+        detail_container.addView(rentalRate);
+        detail_container.addView(rentalCurrency);
+        detail_container.addView(rentalUnit);
         detail_container.addView(pic);
-        detail_container.addView(pic_email);
-        detail_container.addView(pic_phone);
+        detail_container.addView(picPhone);
+        detail_container.addView(picEmail);
+        detail_container.addView(opHoursFrom);
+        detail_container.addView(opHoursTo);
 
-        detail_container.addView(asset_type_label);
-        detail_container.addView(asset_type);
 
-        detail_container.addView(powerStatus);
-        detail_container.addView(labelStatus);
-        detail_container.addView(virtualStatus);
 
-        //detail_container.addView(type);
-        detail_container.addView(desc);
+//        detail_container.addView(sku);
+//        detail_container.addView(ip);
+//        detail_container.addView(host);
+//        detail_container.addView(os);
+//        detail_container.addView(contract);
+//        detail_container.addView(owner);
+//        detail_container.addView(pic);
+//        detail_container.addView(pic_email);
+//        detail_container.addView(pic_phone);
+//
+//        detail_container.addView(asset_type_label);
+//        detail_container.addView(asset_type);
+//
+//        detail_container.addView(powerStatus);
+//        detail_container.addView(labelStatus);
+//        detail_container.addView(virtualStatus);
+//
+//        //detail_container.addView(type);
+//        detail_container.addView(desc);
 
         FloatingActionButton fabSave = (FloatingActionButton) findViewById(R.id.fab_save_item);
 
@@ -159,7 +198,7 @@ public class AddVenueActivity extends ActionBarActivity {
             @Override
             public void onClick(View v) {
 
-                saveAsset();
+                saveVenue();
                 /*
                 asset = new Asset();
 
@@ -220,46 +259,72 @@ public class AddVenueActivity extends ActionBarActivity {
 
     }
 
-    public void saveAsset(){
-        asset = new Asset();
+    public void saveVenue(){
+        venue = new Venue();
 
-        String createdDate = DbDateUtil.getDateTime();
-        String lastUpdate = DbDateUtil.getDateTime();
+        venue.setName(name.getText().toString());
+        venue.setInDoor(inDoor.getText().toString());
+        venue.setOutDoor(outDoor.getText().toString());
+        venue.setCapacity(Integer.parseInt(capacity.getText().toString()));
+        venue.setSquareMeter(Integer.parseInt(squareMeter.getText().toString()));
+        venue.setRentalRate(Integer.parseInt(rentalRate.getText().toString()));
+        venue.setRentalCurrency(rentalCurrency.getText().toString());
+        venue.setRentalUnit(rentalUnit.getText().toString());
+        venue.setPIC(pic.getText().toString());
+        venue.setPicPhone(picPhone.getText().toString());
+        venue.setPicEmail(picEmail.getText().toString());
+        venue.setOpHoursFrom(opHoursFrom.getText().toString());
+        venue.setOpHoursTo(opHoursTo.getText().toString());
 
-        asset.setRackId(rackId);
-        asset.setCreatedDate(createdDate);
-        asset.setLastUpdate(lastUpdate);
-        asset.setExtId(extId);
-        asset.setSKU(sku.getText().toString());
-        asset.setIP(ip.getText().toString());
-        asset.setHostName(host.getText().toString());
-        asset.setOS(os.getText().toString());
-        asset.setContractNumber(contract.getText().toString());
-        asset.setOwner(owner.getText().toString());
-        asset.setPIC(pic.getText().toString());
-        asset.setPicEmail(pic_email.getText().toString());
-        asset.setPicPhone(pic_phone.getText().toString());
-        asset.setAssetType( asset_type.getSelectedItem().toString() );
-        asset.setItemDescription(desc.getText().toString());
+        venue.save();
 
-        asset.setPowerStatus( (powerStatus.isChecked())?1:0 );
-        asset.setLabelStatus( (labelStatus.isChecked())?1:0 );
-        asset.setVirtualStatus( (virtualStatus.isChecked())?1:0 );
-
-        asset.setLocalEdit(1);
-        asset.setUploaded(0);
-
-        asset.save();
-        //Log.i("asset",asset.getIP());
-
-        //Location r = Select.from(Location.class).where(Condition.prop("rack_id").eq(rackId)).first();
-
-        EventBus.getDefault().postSticky(new VenueEvent("refreshById", rackId ));
-        EventBus.getDefault().post(new VenueEvent("syncAsset",asset));
+        EventBus.getDefault().postSticky(new VenueEvent("refreshById", locationId));
+        EventBus.getDefault().post(new VenueEvent("syncVenue", venue));
 
         finish();
 
     }
+
+    //public void saveAsset(){
+//        asset = new Asset();
+//
+//        String createdDate = DbDateUtil.getDateTime();
+//        String lastUpdate = DbDateUtil.getDateTime();
+//
+//        asset.setRackId(rackId);
+//        asset.setCreatedDate(createdDate);
+//        asset.setLastUpdate(lastUpdate);
+//        asset.setExtId(extId);
+//        asset.setSKU(sku.getText().toString());
+//        asset.setIP(ip.getText().toString());
+//        asset.setHostName(host.getText().toString());
+//        asset.setOS(os.getText().toString());
+//        asset.setContractNumber(contract.getText().toString());
+//        asset.setOwner(owner.getText().toString());
+//        asset.setPIC(pic.getText().toString());
+//        asset.setPicEmail(pic_email.getText().toString());
+//        asset.setPicPhone(pic_phone.getText().toString());
+//        asset.setAssetType( asset_type.getSelectedItem().toString() );
+//        asset.setItemDescription(desc.getText().toString());
+//
+//        asset.setPowerStatus( (powerStatus.isChecked())?1:0 );
+//        asset.setLabelStatus( (labelStatus.isChecked())?1:0 );
+//        asset.setVirtualStatus( (virtualStatus.isChecked())?1:0 );
+//
+//        asset.setLocalEdit(1);
+//        asset.setUploaded(0);
+//
+//        asset.save();
+//        //Log.i("asset",asset.getIP());
+//
+//        //Location r = Select.from(Location.class).where(Condition.prop("rack_id").eq(rackId)).first();
+//
+//        EventBus.getDefault().postSticky(new VenueEvent("refreshById", rackId ));
+//        EventBus.getDefault().post(new VenueEvent("syncAsset",asset));
+//
+//        finish();
+//
+//    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -281,7 +346,7 @@ public class AddVenueActivity extends ActionBarActivity {
         }
 
         if(id == R.id.action_save_asset){
-            saveAsset();
+            saveVenue();
         }
 
         return super.onOptionsItemSelected(item);
@@ -293,7 +358,7 @@ public class AddVenueActivity extends ActionBarActivity {
         if( resultCode == Activity.RESULT_OK ){
             if(requestCode == INTENT_REQUEST_GET_CODE){
                 Bundle bundle = data.getExtras();
-                sku.setText( bundle.getString("resultText"));
+                name.setText( bundle.getString("resultText"));
             }
 
             if(requestCode == INTENT_REQUEST_GET_IMAGES){

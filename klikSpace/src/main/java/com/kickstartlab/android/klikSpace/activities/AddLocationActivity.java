@@ -90,7 +90,7 @@ public class AddLocationActivity extends ActionBarActivity {
 
         extId = extId.toLowerCase();
 
-        this.getSupportActionBar().setTitle("Add City");
+        this.getSupportActionBar().setTitle("Add Location");
 
         this.getSupportActionBar().setHomeButtonEnabled(true);
 

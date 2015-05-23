@@ -6,6 +6,7 @@ import com.orm.SugarRecord;
  * Created by awidarto on 10/14/14.
  */
 public class Location extends SugarRecord<Location>{
+    private String name;
     private String SKU;
     private String brc1;
     private String brc2;
@@ -36,6 +37,14 @@ public class Location extends SugarRecord<Location>{
 
     public Location(){
 
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String toString(){

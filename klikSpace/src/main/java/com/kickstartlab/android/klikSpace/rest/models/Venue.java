@@ -28,6 +28,7 @@ public class Venue extends SugarRecord<Venue> {
     private String opHoursFrom;
     private String opHoursTo;
     private ArrayList<String> auxiliaryFeature;
+    private String extId;
 
     public Venue(){
 
@@ -183,5 +184,13 @@ public class Venue extends SugarRecord<Venue> {
 
     public void setAuxiliaryFeature(ArrayList<String> auxiliaryFeature) {
         this.auxiliaryFeature = auxiliaryFeature;
+    }
+
+    public String getExtId() {
+        return extId;
+    }
+
+    public void setExtId(String extId) {
+        this.extId = extId;
     }
 }
