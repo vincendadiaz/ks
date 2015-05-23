@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">klikSpace</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!--<string name="api_base_url">http://am.kickstartlab.com/api/v1</string>-->
+    <string name="api_base_url">http://ppl-b09.cs.ui.ac.id/KlikSpaceAPILogin.php</string>
+    <string name="api_base_url_login">http://ppl-b09.cs.ui.ac.id/KlikSpaceAPILogin.php</string>
+    <string name="api_base_url_getcity">http://ppl-b09.cs.ui.ac.id/KlikSpaceGetAllCity.php</string>
+    <string name="jwh_api_base_url">http://www.jayonexpress.com/api/mobile/v2/</string>
+    <string name="action_city">Get Cities</string>
+    <string name="action_locations">Get Locations</string>
+    <string name="action_venues">Get Venue Data</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_scan">Scan</string>
+    <string name="toggle_flash">Flash</string>
+    <string name="flash_on">Flash [ON]</string>
+    <string name="flash_off">Flash [OFF]</string>
+    <string name="auto_focus_on">Auto Focus [ON]</string>
+    <string name="auto_focus_off">Auto Focus [OFF]</string>
+    <string name="formats">Formats</string>
+    <string name="choose_formats">Choose Formats</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="action_merchant">Get Merchants</string>
+    <string name="no_order_found">Tidak Ada Order</string>
+    <string name="action_create">Create</string>
+    <string name="action_to_ds">Sortir ke DS</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_to_wh">Masuk WH</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="wh_status_not_wh">bwh</string>
+    <string name="wh_status_accept_wh">awh</string>
+    <string name="wh_status_at_wh">dwh</string>
+    <string name="wh_status_assign_ds">dds</string>
+    <string name="wh_status_return_wh">rwh</string>
+    <string name="wh_status_return_merchant">bmc</string>
+    <string name="dialog_order_title">Package Detail</string>
+    <string name="wh_status_long_not_wh">belum di gudang</string>
+    <string name="wh_status_long_accept_wh">diterima di gudang</string>
+    <string name="wh_status_long_at_wh">di gudang</string>
+    <string name="wh_status_long_assign_ds">di delivery</string>
+    <string name="wh_status_long_return_wh">kembali ke gudang</string>
+    <string name="wh_status_long_return_merchant">kembali ke merchant</string>
+    <string name="total_label">Total</string>
+    <string name="scanned_label">Diterima</string>
+    <string name="action_logout">Logout</string>
+    <string name="app_short_name">KlikSpace</string>
+    <string name="default_label">Label</string>
+    <string name="action_edit_venue">Edit Venue</string>
+
+    <string-array name="date_filter">
+        <item>Today</item>
+        <item>Range</item>
+        <item>All</item>
+    </string-array>
+
+    <string name="title_activity_edit_venue">Edit Venue</string>
+    <string name="dialog_alien_asset_title">Alien Asset</string>
+    <string name="title_activity_picker">PickerActivity</string>
+    <string name="settings_title">Settings</string>
+    <string name="title_activity_add_venue">Add Venue</string>
+    <string name="pref_header_sync_param">Sync Parameters</string>
+    <string name="pref_title_sync_param">Sync Device Types list and other parameters</string>
+    <string name="title_activity_scanner">ScannerActivity</string>
+    <string name="dialog_dupe_asset_title">Duplicate Found</string>
+    <string name="action_create_asset">create</string>
+    <string name="dialog_displaced_venue_title">Misplaced Venue</string>
+    <string name="action_move_asset">Move</string>
+    <string name="no_button">No</string>
+    <string name="yes_button">Yes</string>
+    <string name="ignore_button">Ignore</string>
+    <string name="ask_move">Move asset ?</string>
+    <string name="misplaced_location">Venue placed in incorrect Location.</string>
+    <string name="pref_header_sync_images">Download Images</string>
+    <string name="pref_title_sync_images">Download image attachment informations</string>
+    <string name="pref_header_upsync_images">Upload Images</string>
+    <string name="pref_title_upsync_images">Upload device captured images</string>
+    <string name="dialog_unregistered_city_title">Unregistered City</string>
+    <string name="dialog_unregistered_venue_title">Unregistered Venue</string>
+    <string name="power_status">Power Status</string>
+    <string name="label_status">Label Status</string>
+    <string name="virtual_status">Virtual Status</string>
+    <string name="label_no">No</string>
+    <string name="label_yes">Yes</string>
+    <string name="pref_header_upsync_venues">Sync Venues</string>
+    <string name="pref_title_upsync_venues">Synchronize all klikSpace</string>
+    <string name="loading_default">Loading...</string>
+    <string name="uploading_images">Uploading images</string>
+    <string name="rack_status">Status</string>
+    <string name="label_active">Active</string>
+    <string name="label_inactive">Inactive</string>
+    <string name="title_activity_add_location">Add Location</string>
+    <string name="acction_location_detail">Location Detail</string>
+    <string name="pref_header_upsync_log">Sync Log</string>
+    <string name="pref_title_upsync_log">Synchronize Scan Log</string>
+    <string name="pref_header_purge_log">Clear Log</string>
+    <string name="pref_title_purge_log">Clear log data</string>
+    <string name="title_activity_authorize">Authorize</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_authorize">Authorize</string>
+    <string name="label_fullname">Full Name</string>
+
+</resources>

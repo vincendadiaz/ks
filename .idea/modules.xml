@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/klikSpace/libs/PolyPicker/PolyPicker.iml" filepath="$PROJECT_DIR$/klikSpace/libs/PolyPicker/PolyPicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/klikSpace.iml" filepath="$PROJECT_DIR$/klikSpace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/klikSpace/klikSpace-klikSpace.iml" filepath="$PROJECT_DIR$/klikSpace/klikSpace-klikSpace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/klikSpace/libs/libs.iml" filepath="$PROJECT_DIR$/klikSpace/libs/libs.iml" />
+    </modules>
+  </component>
+</project>
