@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="poly-picker-1.0.11">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/klikSpace/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.11/res" />
       <root url="jar://$PROJECT_DIR$/klikSpace/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.11/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/klikSpace/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.11/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

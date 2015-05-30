@@ -238,7 +238,7 @@ public class VenueListFragment extends Fragment implements AbsListView.OnItemCli
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-        EventBus.getDefault().post(new VenueEvent("select",mData.get(position)));
+//        EventBus.getDefault().post(new VenueEvent("select",mData.get(position)));
 
     }
 

@@ -35,6 +35,9 @@ public class Location extends SugarRecord<Location>{
     private Integer uploaded;
     private Integer deleted;
 
+    private String latitude;
+    private String longitude;
+
     public Location(){
 
     }
@@ -259,4 +262,19 @@ public class Location extends SugarRecord<Location>{
         this.pictureBrc3 = pictureBrc3;
     }
 
+    public String getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(String latitude) {
+        this.latitude = latitude;
+    }
+
+    public String getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(String longitude) {
+        this.longitude = longitude;
+    }
 }

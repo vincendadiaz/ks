@@ -2,410 +2,242 @@
 <items version="2" >
 
     <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/com.amulyakhare/com.amulyakhare.textdrawable/1.0.1/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="d237556caead5b93d97e18a071059a2c0045978e">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-a2b26a3893a508cb6a60e26f4484b24b6683dc57.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.5/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="85fd787f604f8fc6564ff7d4cce05f6522f180ab">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-0c297692d6fa97ab514d82ceef5461b2205f58f6.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/1.8.2/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="26424233c1eec3a61981ac77e77d0ca3a8c118fa">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-ae4174cdf77d6deb8a308462db488d85b48389d8.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/com.github.castorflex.smoothprogressbar/library/1.0.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="698b40a43ecff2ebadc58b019ae236edd053fc67">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-6c3fb8a55b223cc0b46b21de95ce9ad0a018b274.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/com.github.satyan/sugar/1.3/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="07e07903922250dabf50c7d131d6fa069a050305">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-261b171247181d9b54d14741b7b3ffe14e302bbf.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.2.1/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4b868b833b0887aa48c4e581558eef4f1196f6a2">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-e3363e4890acfc2a159a3ab580e889cb8c4963dd.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.5/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="85fd787f604f8fc6564ff7d4cce05f6522f180ab">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-45cf71df1d63d67eb8f3a60467587a7360c62be1.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/me.dm7.barcodescanner/zxing/1.5/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2aa015d05422639a5ff9c861488b56e447a77b4b">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-87bebca5ec98979edd62e320aaa4af535268dcf7.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-daef87f38bc6f33fe598dc4c18bf3fb6e804106d.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-95df608881387a7388dec5f212e692d1227b5975.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-c5ad5afa21ee4c982c727b3f03ce70f34de3ddf3.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.1.1/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-543966c51de5731e278515b5d97c6f48ed9b70fe.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.1.0/908e18674f895e3e1fa8f4a954b8c637a23d2801/core-3.1.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="908e18674f895e3e1fa8f4a954b8c637a23d2801">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/core-3.1.0-81dfee27517eba951b720d487462c3276bcf68ac.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="0c0c19759e5868604a3b4c2c0074ee9404d73c76">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-8d40d2421cf5d6b1215951f2ddafaec958b2ef6a.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.1.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="ee9ae2b87d57a33a7381c75d54db12bdf2995656">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-0a8ed229da786cde4f27324721e99bb79e7325d7.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.8.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="7a055a4323187e6f6a5e63f01b5a59bff71869a5">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-0f6830a4fad7860ac2c56d76833d40d36de663c5.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/com.github.machinarius/preferencefragment/0.1.1/classes.jar"
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\com.github.machinarius\preferencefragment\0.1.1\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="648463e00c6883d01b6c11a6781776203334b6fc">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-22e70bf5a03218b0b3c2dabc09ef33940bf57c52.jar" />
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\classes-98d2727a01ed368fe2ee48b549548db3ce7176ec.jar" />
     </item>
     <item
-        jar="/Users/raufanmultahadasafari/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.6.1/efb0a36546aa8857ab8df358b106c1817e03cbee/retrofit-1.6.1.jar"
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\com.melnykov\floatingactionbutton\1.1.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="efb0a36546aa8857ab8df358b106c1817e03cbee">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/retrofit-1.6.1-54e3504b670acb7d20a86f55e09d79b82607952e.jar" />
+        sha1="ee9ae2b87d57a33a7381c75d54db12bdf2995656">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\classes-bffb37a8bb681a90d9113bda7ec9fc0fbacaeadd.jar" />
     </item>
     <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/com.github.gcacace/signature-pad/1.0.1/classes.jar"
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\com.android.support\support-v13\21.0.0\libs\internal_impl-21.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="16aef8a27fb237f5a07702c5f0d39e86ed549158">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-3a662fc75ae8701fa557125791b75e1a6fd43c03.jar" />
+        sha1="5a8e01742aee890c56fe638ea7c921b91a3fdc62">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-cadc2a2d62a050b79c199649b9f977bde5971bbe.jar" />
     </item>
     <item
-        jar="/Users/raufanmultahadasafari/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/library-2.4.0-edad8fe5820beb32467c8b5ee4e0d6c91f9c55e0.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.2.1/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4b868b833b0887aa48c4e581558eef4f1196f6a2">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-78a7df862f0661a5d199cc9d9c2b3c1893eaea7a.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.7.3.1/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="f9566ad7640cbad2ee4924baea8461ab5bc401cc">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-cb938ce31ae9c8ccfe05c41715d317dc692c1f8a.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/1.8.2/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="26424233c1eec3a61981ac77e77d0ca3a8c118fa">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-a0496b8d2e8e68bdb9af4174811815c28c9380d8.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.1.1/classes.jar"
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.1.1\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-1b0267b510d4df0fa0726d79d9f06b9c98307e89.jar" />
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\classes-ce3d5c4d425bf3125713bab0f4221d1682f71c95.jar" />
     </item>
     <item
-        jar="/Users/raufanmultahadasafari/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.0.0/2534c458682c73f5b9871131ab3098d3f987ca3/okio-1.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="02534c458682c73f5b9871131ab3098d3f987ca3">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/okio-1.0.0-23c680fa294d467de56670e059076eeec2de206f.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.11/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="85dc14511232861bcb33afecfc4b4a2c3f294355">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-8986ce9ce44141b9d56c213bd07e93028ebf7dc5.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4a49cfe289b8726dbc6aaccbd0d550a3763c2c8b">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-cbcd9573cceb5d044eb70e9a77354b613b671cd8.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/com.github.gcacace/signature-pad/1.0.1/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="16aef8a27fb237f5a07702c5f0d39e86ed549158">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-4864fcfcfe48873d12ae56de70846371032e9906.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.0/libs/internal_impl-21.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="5a8e01742aee890c56fe638ea7c921b91a3fdc62">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-e673831fea5a8793c8c884e22a015959ac9dfda8.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.0.0/4c8d1536dba3812cc1592090dc20c47a4ed3c35e/okhttp-2.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4c8d1536dba3812cc1592090dc20c47a4ed3c35e">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/okhttp-2.0.0-a472ea4ae05d2d5383901607d58bec0775331436.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-fb709e6ef73bf4b0ea55f9381fd08c1fefb40273.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/com.github.castorflex.smoothprogressbar/library/1.0.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="698b40a43ecff2ebadc58b019ae236edd053fc67">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-223cb90c026ada7780e0049402177eaefc3fdf97.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.0/7ff0e000d1e27e356567f56c92af3b8ab912636f/picasso-2.5.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="7ff0e000d1e27e356567f56c92af3b8ab912636f">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/picasso-2.5.0-96e6ef3fe0e6045d7341c74be337751338b8a5a8.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/eventbus-2.4.0-e8b2f6cfac71a6ed052e77056956f8d0e14ea7ef.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-55b6417bbf2bd5f408c0786704e0f91fdb337a1f.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-18a9a24fd95eb5182dff4deb2be8d94da0f3291c.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-fd88677d47656da250453ce7d24374cb0436de69.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/com.jenzz/materialpreference/1.2/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="baa3681f0563539b1c266efae2d9f4f743fc8dc5">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-4290fcf468c64e6a7c7af0de79eab909523596d9.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/me.dm7.barcodescanner/zxing/1.5/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2aa015d05422639a5ff9c861488b56e447a77b4b">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-5580c94915f6cad85e28ee9a34da5e310f2f8a60.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-d59dfff3e3904636b847dd0bb3ffadb05c0262d2.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/com.github.satyan/sugar/1.3/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="07e07903922250dabf50c7d131d6fa069a050305">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-706afde4fbe3d09ba0c253e24dfd4e3227da24ef.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-37df52f4b7ef82014792429dff9ebbd66245251c.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/com.amulyakhare/com.amulyakhare.textdrawable/1.0.1/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="d237556caead5b93d97e18a071059a2c0045978e">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-f8ec751cf26bdfcb84daa9a98a4643b8023476b7.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.11/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="85dc14511232861bcb33afecfc4b4a2c3f294355">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-165ba646e81bbcf69d1b300abecf2ddac0f4f92f.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.8.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="7a055a4323187e6f6a5e63f01b5a59bff71869a5">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-65301fd361e59d089d5d5fc5867f8d7eead3acd5.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/com.github.navasmdc/MaterialDesign/1.4/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="87405405e403de68f4057757b8a2e8de02bd65d0">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-cf3b56843fc7a2ba0dc68786b11ea935a9d75dc6.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/com.github.navasmdc/MaterialDesign/1.4/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="87405405e403de68f4057757b8a2e8de02bd65d0">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-e50b16e856414cc225b928209a4e93aa972c80b3.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-80136a7b86300f1aacbe2f8389aae5b1b9b4d494.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.0/libs/internal_impl-21.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="5a8e01742aee890c56fe638ea7c921b91a3fdc62">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-8c33166c8023bebf10f38d5bd4fa7cca4279a760.jar" />
-    </item>
-    <item
-        jar="/Users/raufanmultahadasafari/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.0.0/afe8399d352713b66e597e9670c741d1e60ae923/okhttp-urlconnection-2.0.0.jar"
+        jar="C:\Users\Vincenda Diaz\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-urlconnection\2.0.0\afe8399d352713b66e597e9670c741d1e60ae923\okhttp-urlconnection-2.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="afe8399d352713b66e597e9670c741d1e60ae923">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.0.0-30e8a2251c6939d2b2ce4f52e9264b27219f3904.jar" />
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\okhttp-urlconnection-2.0.0-264274122caa10ca3d0cafe58a91edbddb2e3ae5.jar" />
     </item>
     <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/classes.jar"
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\com.github.castorflex.smoothprogressbar\library\1.0.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-7a16912559aae8a90b0ec7b78355f4e93f97de2c.jar" />
+        sha1="698b40a43ecff2ebadc58b019ae236edd053fc67">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\classes-8fabd5084aab75e646e3f848ef380f909e07a5bf.jar" />
     </item>
     <item
-        jar="/Users/raufanmultahadasafari/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="a60a5e993c98c864010053cb901b7eab25306568">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/gson-2.2.4-43714e324fd2353aaaffca76093d5631d09f2f86.jar" />
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\classes-633977c52c40e467d87aa02e36a7d2638514b143.jar" />
     </item>
     <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.7.3.1/classes.jar"
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\com.getbase\floatingactionbutton\1.8.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7a055a4323187e6f6a5e63f01b5a59bff71869a5">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\classes-391faeaee573bf814f6792262557582b235a5e3d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\com.afollestad\material-dialogs\0.7.3.1\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="f9566ad7640cbad2ee4924baea8461ab5bc401cc">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-cad21e4724b7a17f3df28acbbc672fc38fa88f4e.jar" />
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\classes-2f088aa405f63d6b7a7c1193885986c52ee82c29.jar" />
     </item>
     <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.1.0/classes.jar"
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.1.71\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="ee9ae2b87d57a33a7381c75d54db12bdf2995656">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-5eb72178e02a1ab15ed902dbe9077cca08208216.jar" />
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\classes-5f7f09a2e82fb0e402c96f8e33c7cc9d42e3bbfc.jar" />
     </item>
     <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.0/classes.jar"
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\net.the4thdimension\poly-picker\1.0.11\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="0c0c19759e5868604a3b4c2c0074ee9404d73c76">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-1b0ee2333639026d4b115ab9af15f8a4768b9bb2.jar" />
+        sha1="85dc14511232861bcb33afecfc4b4a2c3f294355">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\classes-cb6f32a81d74e19d0a1592a08f8a7ac342a0944b.jar" />
     </item>
     <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/com.jenzz/materialpreference/1.2/classes.jar"
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="baa3681f0563539b1c266efae2d9f4f743fc8dc5">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-fa8dfc49903ba3447b8a8a20b0aeaf518da772bd.jar" />
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\classes-687af23c2990dd82345c88b33d79553b33c3d924.jar" />
     </item>
     <item
-        jar="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/classes.jar"
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\com.commonsware.cwac\camera\0.6.10\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4a49cfe289b8726dbc6aaccbd0d550a3763c2c8b">
-        <dex dex="/Users/raufanmultahadasafari/Documents/nitipVince/Projects/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-5a547f7d73a337dfd1a855bc67434407edae551d.jar" />
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\classes-0ced649c197531924f3059d0cec44f8fefee799a.jar" />
     </item>
     <item
-        jar="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/exploded-aar/com.github.machinarius/preferencefragment/0.1.1/classes.jar"
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.2.1\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="648463e00c6883d01b6c11a6781776203334b6fc">
-        <dex dex="/Users/raufanmultahadasafari/Documents/klikSpace/klikSpace/build/intermediates/pre-dexed/debug/classes-26e6e2a59729126ee24f9d1fd87f0aa8e2457a1f.jar" />
+        sha1="4b868b833b0887aa48c4e581558eef4f1196f6a2">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\classes-7e07b4e78646c142689c158312ba132dfd917af4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vincenda Diaz\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\library-2.4.0-f13a72b2a074244290c3abc7245d20cd4bb22be0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.5\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85fd787f604f8fc6564ff7d4cce05f6522f180ab">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\classes-04c97a973fedee294a7114b7b9323ff4582091e1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\com.amulyakhare\com.amulyakhare.textdrawable\1.0.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d237556caead5b93d97e18a071059a2c0045978e">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\classes-4ec9f2493a1f9bccad8a9c727dc0624ead7b23a7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vincenda Diaz\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.0.0\4c8d1536dba3812cc1592090dc20c47a4ed3c35e\okhttp-2.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c8d1536dba3812cc1592090dc20c47a4ed3c35e">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\okhttp-2.0.0-70461db7d2391c820d6f36689afc0b2e2a77ecb8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\com.github.gcacace\signature-pad\1.0.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="16aef8a27fb237f5a07702c5f0d39e86ed549158">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\classes-f80443ee52bc684a53e1f3cdcfef3389095d3e8a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\com.android.support\support-v13\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0c0c19759e5868604a3b4c2c0074ee9404d73c76">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\classes-d089705d4948b66b424da316fb93193a86d0444b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\com.github.navasmdc\MaterialDesign\1.4\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="87405405e403de68f4057757b8a2e8de02bd65d0">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\classes-25825e5fa3e4de74e4fa412e6ddefe07d97a6453.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\me.dm7.barcodescanner\zxing\1.5\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2aa015d05422639a5ff9c861488b56e447a77b4b">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\classes-e8ef8b734d28e60c64da4f2f763479b0dfe07e01.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vincenda Diaz\Documents\Util\adt-bundle-windows-x86_64-20140702\adt-bundle-windows-x86_64-20140702\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-d6a347a9503cd21268c8b16f6f85e6e27e538999.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vincenda Diaz\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.0.0\2534c458682c73f5b9871131ab3098d3f987ca3\okio-1.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="02534c458682c73f5b9871131ab3098d3f987ca3">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\okio-1.0.0-f22053d50f7b1e67c96973f2173ec517f6467faa.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vincenda Diaz\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\gson-2.2.4-7f992c0659fa4683e17fa1d84ff82a24277a1ff1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vincenda Diaz\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\2.4.0\ddd166d01b3158d1c00576d29f7ed15c030df719\eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\eventbus-2.4.0-974d22118d5c27ffa4826c97d993590282e242f9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vincenda Diaz\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.6.1\efb0a36546aa8857ab8df358b106c1817e03cbee\retrofit-1.6.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="efb0a36546aa8857ab8df358b106c1817e03cbee">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\retrofit-1.6.1-883091bf0bc43abb3207e2105509cd9ddba07534.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\com.rengwuxian.materialedittext\library\1.8.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="26424233c1eec3a61981ac77e77d0ca3a8c118fa">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\classes-7cf6813aec399201e063656a4bf4c19bd5e99a48.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vincenda Diaz\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.0\7ff0e000d1e27e356567f56c92af3b8ab912636f\picasso-2.5.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff0e000d1e27e356567f56c92af3b8ab912636f">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\picasso-2.5.0-27e714b326622530fe260628a20d8e474aaf2cef.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\com.jenzz\materialpreference\1.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="baa3681f0563539b1c266efae2d9f4f743fc8dc5">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\classes-74fcdd4dc36552afacd6be66a438e2811c934682.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\com.github.satyan\sugar\1.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="07e07903922250dabf50c7d131d6fa069a050305">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\classes-0709c48d770b9f90cc5b4d636e9f3fcaa1cc7277.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-e82b37e056510b481accc8647f9d55cbed15f9f7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vincenda Diaz\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.1.0\908e18674f895e3e1fa8f4a954b8c637a23d2801\core-3.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="908e18674f895e3e1fa8f4a954b8c637a23d2801">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\core-3.1.0-ec679214c4ddd795d6a44fbe8d19a1439d60a75c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="C:\Users\Vincenda Diaz\Documents\Projects\Android\klikSpace\klikSpace\build\intermediates\pre-dexed\debug\classes-8f22f30964e2cebc420c98cc08198a3c9e3f0a0c.jar" />
     </item>
 
 </items>

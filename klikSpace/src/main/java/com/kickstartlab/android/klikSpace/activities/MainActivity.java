@@ -376,12 +376,12 @@ public class MainActivity extends ActionBarActivity implements
             refreshAsset(ae.getLocationId());
         }else if(ae.getAction() == "syncAsset"){
             Venue venue = ae.getVenue();
-            syncAsset(venue);
+//            syncAsset(venue);
         }else if(ae.getAction() == "upsyncBatch"){
             upsyncBatchAsset();
         }else if(ae.getAction() == "upsyncAsset"){
             Venue venue = ae.getVenue();
-            upsyncAsset(venue);
+//            upsyncAsset(venue);
         }else if(ae.getAction() == "refreshImage"){
             downsyncImages(ae.getVenue().getExtId(), "asset");
         }else if(ae.getAction() == "moveRack"){
@@ -400,7 +400,7 @@ public class MainActivity extends ActionBarActivity implements
 
         else if (ae.getAction() == "syncVenue"){
             Venue venue = ae.getVenue();
-            syncAsset(venue);
+//            syncAsset(venue);
 
         }
 

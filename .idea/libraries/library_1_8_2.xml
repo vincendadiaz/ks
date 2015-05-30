@@ -4,8 +4,8 @@
       <root url="jar://$PROJECT_DIR$/klikSpace/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/1.8.2/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/klikSpace/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/1.8.2/res" />
       <root url="jar://$PROJECT_DIR$/klikSpace/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/1.8.2/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/klikSpace/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/1.8.2/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -274,24 +274,24 @@ public class VenueDetailFragment extends Fragment {
         }
 
         if(ae.getAction() == "refreshDetail"){
-            Asset a = ae.getAsset();
-            Log.i("asset evt",a.getIP());
-
-            sku.setBody(a.getSKU());
-            desc.setBody(a.getItemDescription());
-            ip.setBody(a.getIP());
-            os.setBody(a.getOS());
-            pic.setBody(a.getPIC());
-            pic_email.setBody(a.getPicEmail());
-            pic_phone.setBody(a.getPicPhone());
-            contract.setBody(a.getContractNumber());
-            asset_type.setBody(a.getAssetType());
-            owner.setBody(a.getOwner());
-            host.setBody(a.getHostName());
-
-            powerStatus.setBody( (a.getPowerStatus() == 1)?"Yes":"No" );
-            labelStatus.setBody( (a.getLabelStatus() == 1)?"Yes":"No" );
-            virtualStatus.setBody( (a.getVirtualStatus() == 1)?"Yes":"No" );
+//            Asset a = ae.getAsset();
+//            Log.i("asset evt",a.getIP());
+//
+//            sku.setBody(a.getSKU());
+//            desc.setBody(a.getItemDescription());
+//            ip.setBody(a.getIP());
+//            os.setBody(a.getOS());
+//            pic.setBody(a.getPIC());
+//            pic_email.setBody(a.getPicEmail());
+//            pic_phone.setBody(a.getPicPhone());
+//            contract.setBody(a.getContractNumber());
+//            asset_type.setBody(a.getAssetType());
+//            owner.setBody(a.getOwner());
+//            host.setBody(a.getHostName());
+//
+//            powerStatus.setBody( (a.getPowerStatus() == 1)?"Yes":"No" );
+//            labelStatus.setBody( (a.getLabelStatus() == 1)?"Yes":"No" );
+//            virtualStatus.setBody( (a.getVirtualStatus() == 1)?"Yes":"No" );
 
             refreshImage();
         }
@@ -326,7 +326,7 @@ public class VenueDetailFragment extends Fragment {
         int id = item.getItemId();
 
         if (id == R.id.action_refresh_asset) {
-            EventBus.getDefault().post(new VenueEvent("upsyncAsset",asset));
+//            EventBus.getDefault().post(new VenueEvent("upsyncAsset",asset));
         }
 
         return super.onOptionsItemSelected(item);

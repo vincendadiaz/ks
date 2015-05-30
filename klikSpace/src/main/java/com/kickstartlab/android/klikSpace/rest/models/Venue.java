@@ -11,16 +11,21 @@ public class Venue extends SugarRecord<Venue> {
 
     private String mongoID;
     private String name;
+    private String alamat;
     private String locationID;
     private String locationName;
     private String venueType;
     private String inDoor;
     private String outDoor;
-    private int capacity;
+    private int capacityMin;
+    private int capacityMax;
+    private String capacityType;
     private int squareMeter;
-    private int rentalRate;
+    private int rentalRating;
     private String rentalCurrency;
-    private String rentalUnit;
+    private int rentalMin;
+    private int rentalMax;
+    private boolean callForPrice;
     private ArrayList<String> accessibility;
     private String PIC;
     private String picPhone;
@@ -48,6 +53,14 @@ public class Venue extends SugarRecord<Venue> {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getAlamat() {
+        return alamat;
+    }
+
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
     }
 
     public String getLocationID() {
@@ -90,12 +103,12 @@ public class Venue extends SugarRecord<Venue> {
         this.outDoor = outDoor;
     }
 
-    public int getCapacity() {
-        return capacity;
+    public int getCapacityMin() {
+        return capacityMin;
     }
 
-    public void setCapacity(int capacity) {
-        this.capacity = capacity;
+    public void setCapacityMin(int capacityMin) {
+        this.capacityMin = capacityMin;
     }
 
     public int getSquareMeter() {
@@ -106,12 +119,12 @@ public class Venue extends SugarRecord<Venue> {
         this.squareMeter = squareMeter;
     }
 
-    public int getRentalRate() {
-        return rentalRate;
+    public int getRentalRating() {
+        return rentalRating;
     }
 
-    public void setRentalRate(int rentalRate) {
-        this.rentalRate = rentalRate;
+    public void setRentalRating(int rentalRating) {
+        this.rentalRating = rentalRating;
     }
 
     public String getRentalCurrency() {
@@ -120,14 +133,6 @@ public class Venue extends SugarRecord<Venue> {
 
     public void setRentalCurrency(String rentalCurrency) {
         this.rentalCurrency = rentalCurrency;
-    }
-
-    public String getRentalUnit() {
-        return rentalUnit;
-    }
-
-    public void setRentalUnit(String rentalUnit) {
-        this.rentalUnit = rentalUnit;
     }
 
     public ArrayList<String> getAccessibility() {
@@ -192,5 +197,45 @@ public class Venue extends SugarRecord<Venue> {
 
     public void setExtId(String extId) {
         this.extId = extId;
+    }
+
+    public int getCapacityMax() {
+        return capacityMax;
+    }
+
+    public void setCapacityMax(int capacityMax) {
+        this.capacityMax = capacityMax;
+    }
+
+    public String getCapacityType() {
+        return capacityType;
+    }
+
+    public void setCapacityType(String capacityType) {
+        this.capacityType = capacityType;
+    }
+
+    public int getRentalMin() {
+        return rentalMin;
+    }
+
+    public void setRentalMin(int rentalMin) {
+        this.rentalMin = rentalMin;
+    }
+
+    public int getRentalMax() {
+        return rentalMax;
+    }
+
+    public void setRentalMax(int rentalMax) {
+        this.rentalMax = rentalMax;
+    }
+
+    public boolean isCallForPrice() {
+        return callForPrice;
+    }
+
+    public void setCallForPrice(boolean callForPrice) {
+        this.callForPrice = callForPrice;
     }
 }

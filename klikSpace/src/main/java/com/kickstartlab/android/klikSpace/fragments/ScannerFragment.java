@@ -254,16 +254,16 @@ public class ScannerFragment extends Fragment implements
                     SLog.s(scresult, "displacement", "asset", "asset " + asset.getExtId() + " in location " + asset.getRackId()  );
                     showDisplacedDialog(message, asset, mParam1);
                 }else{
-                    EventBus.getDefault().post(new VenueEvent("select", asset));
+//                    EventBus.getDefault().post(new VenueEvent("select", asset));
                 }
 
             }else{
-                String message = new StringBuilder("Scan Result : ")
-                        .append(System.lineSeparator())
-                        .append(rawResult.getText())
-                        .toString();
+//                String message = new StringBuilder("Scan Result : ")
+//                        .append(System.lineSeparator())
+//                        .append(rawResult.getText())
+//                        .toString();
                 SLog.e(scresult, "alien", "asset");
-                showAlienDialog(getResources().getString(R.string.dialog_alien_asset_title), message);
+//                showAlienDialog(getResources().getString(R.string.dialog_alien_asset_title), message);
             }
 
         }else if("getcode".equalsIgnoreCase(mParam2)){
@@ -272,12 +272,12 @@ public class ScannerFragment extends Fragment implements
 
             if (select.count() > 0) {
                 Asset asset = (Asset) select.first();
-                String message = new StringBuilder("Scan Result : ")
-                        .append(System.lineSeparator())
-                        .append(rawResult.getText())
-                        .toString();
+//                String message = new StringBuilder("Scan Result : ")
+//                        .append(System.lineSeparator())
+//                        .append(rawResult.getText())
+//                        .toString();
                 SLog.s(scresult, "asset code exists", "asset", asset.getExtId());
-                showDupeDialog(message);
+//                showDupeDialog(message);
             }else{
                 SLog.e(scresult, "new asset code", "asset");
                 EventBus.getDefault().post( new ScannerEvent("sendCode", rawResult ));
@@ -438,7 +438,7 @@ public class ScannerFragment extends Fragment implements
                                     Log.i("CURRENT RACK", rackId);
                                     Log.i("ASSET RACK", asset.getRackId());
                                   SLog.s("Move", "displacement", "asset", "asset " + asset.getExtId() + " to location " + rackId  );
-                                  EventBus.getDefault().post(new VenueEvent("moveRack", asset, rackId ));
+//                                  EventBus.getDefault().post(new VenueEvent("moveRack", asset, rackId ));
                                   EventBus.getDefault().post(new ScannerEvent("resume"));
                               }
 

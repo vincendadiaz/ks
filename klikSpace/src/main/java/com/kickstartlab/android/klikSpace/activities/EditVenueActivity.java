@@ -297,8 +297,8 @@ public class EditVenueActivity extends ActionBarActivity {
 
         asset.save();
         Log.i("asset", asset.getIP());
-        EventBus.getDefault().post(new VenueEvent("upsyncAsset",asset));
-        EventBus.getDefault().postSticky(new VenueEvent("refreshDetailView", asset));
+//        EventBus.getDefault().post(new VenueEvent("upsyncAsset",asset));
+//        EventBus.getDefault().postSticky(new VenueEvent("refreshDetailView", asset));
         finish();
     }
 
